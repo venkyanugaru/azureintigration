@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'azureintigration'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A96EEF1A41364AC9A9316049E547B34C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C3382A9F5159421D8BCCAD25AD65A759 }}
           package: '*.jar'
