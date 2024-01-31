@@ -6,7 +6,7 @@ spring:
 
   datasource:
     #SPRING_DATASOURCE_URL environment variable will be something like -> jdbc:sqlserver://MySqlServer\\MyInstance:1433;DatabaseName=MyDbName;
-    url: jdbc:sqlserver://laxmivenkat.database.windows.net:1433;database=laxmivenkat;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=180;
+    url: jdbc:sqlserver://laxmivenkat.database.windows.net:1433;database=laxmivenkat;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: dbadmin
     password: Laxmivenkat@24
-    driverClassName: org.hibernate.dialect.SQLServerDialect
+    # driverClassName: org.hibernate.dialect.SQLServerDialect

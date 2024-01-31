@@ -1,4 +1,4 @@
-package com.azure.intigration.azureintigration;
+package com.azure.intigration.azureintigration.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
